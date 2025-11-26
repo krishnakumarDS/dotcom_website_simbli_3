@@ -1,0 +1,48 @@
+.generic-page {
+  padding: 6rem 0;
+  min-height: 70vh;
+}
+
+.generic-page-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: var(--secondary-color);
+  padding: 3rem;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  animation: slideInUp 1s ease-out;
+}
+
+.generic-page-title {
+  font-size: 2.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+.generic-page-content h2 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 0.5rem;
+}
+
+.generic-page-content p, 
+.generic-page-content li {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.generic-page-content ul,
+.generic-page-content ol {
+    padding-left: 2rem;
+}
+
+.generic-page-content a {
+    font-weight: 600;
+}
